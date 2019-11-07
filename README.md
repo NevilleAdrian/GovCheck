@@ -1,2 +1,3 @@
-# GovCheck
-This platform was built on the back of cutting edge technology (REACT) and C#. It was built to allow individuals interact directly with Government  projects, they can scroll through latest Government projects and make comments about them.
+Run Npm install in clientapp to install node modules
+You will need to have dotnet server configured
+Run the command dotnet run to run server locally
