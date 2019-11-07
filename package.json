@@ -1,0 +1,20 @@
+{
+  "name": "govcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node your-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nevilleadrian@bitbucket.org/govcheck/govcheck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/govcheck/govcheck#readme",
+  "dependencies": {
+    "react-bootstrap-button-loader": "^2.0.0"
+  }
+}
