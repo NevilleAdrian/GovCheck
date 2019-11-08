@@ -1,0 +1,105 @@
+﻿.admin-body{
+    margin-left:0px !important;
+    margin-right:0px;
+    padding-left:0px; 
+    padding-right:0px
+}
+
+.admin-body .container{
+    margin-left: 0px !important;
+}
+
+.admin-sidebar {
+    background-color: #EFEFEF;
+    padding:5em 0;
+
+
+}
+.circle-big {
+    width: 240px;
+    height: 170px;
+    border-radius: 100%;
+}
+.user-profile {
+    margin: 0px auto;
+    padding: 3em 1em ;
+}
+
+.profile-pic {
+    max-width:170px;
+    margin:0px auto;
+
+}
+
+.user-name {
+    text-align: center;
+    padding: 2em 3.4em;
+}
+
+.user-name h3{
+    color:#4D4F5C ;
+    font-weight:bold;
+}
+
+.project-i {
+    display:inline-block;
+}
+.reaction-i {
+    display:inline-block;
+    padding-left: 2em;
+}
+.project-icons{
+    padding:5em 0;
+    text-align:center;
+}
+
+project-icons img{
+    display:inline-block !important;
+    max-width:30px;
+}
+
+.icon-span-container{
+    display:inline-block 
+}
+project-icons span{
+    display:inline-block;
+}
+
+.img-icons{
+    max-width:18px;
+}
+
+.figure {
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    font-weight: 800;
+}
+
+.admin-nav button {
+    background-color:#CFCFCF;
+    display:block;
+    color:white;
+    padding:1em 2em;
+    width:100%;
+    border:none !important;
+
+}
+
+.admin-nav  button img{
+    max-width:20px; 
+}
+
+.admin-nav button .link-text{
+    display:inline-block;
+    padding-left:2em;
+}
+
+.admin-nav button:hover {
+    background-color: #37CB00;
+}
+
+
+/** dashboard page */

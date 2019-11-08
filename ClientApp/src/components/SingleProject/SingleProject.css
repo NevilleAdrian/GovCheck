@@ -1,0 +1,169 @@
+﻿/* .menu_icon {
+    color: #575F66;
+    padding: 10px;
+    border: 1px solid #EBEDED;
+    border-radius: 4px;
+    float: right;
+    padding-right: 0px;
+} */
+.main_p_heading {
+    font-size: 29px;
+    font-weight: bold;
+    color: #707070;
+    margin-bottom: 28px;
+}
+
+.main_img_details {
+    padding-left: 30px;
+}
+
+.main_pd_heading {
+    font-weight: bold;
+    color: #909090;
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* padding-right: 100px; */
+}
+
+.main_pd_small {
+    font-size: 13px;
+    color: #909090;
+    padding-right: 7px;
+}
+
+.main_pd_smaller {
+    font-size: 9px;
+    color: #909090;
+    margin-top: 30px;
+    padding: 0;
+}
+
+span.fa {
+    font-size: 14px;
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+    span.fa:hover {
+        color: black;
+    }
+
+span.fa-thumbs-up {
+    padding-left: 0;
+}
+
+.pd_button_green {
+    background-color: #61D038;
+}
+
+.pd_button_red {
+    background-color: red;
+}
+
+.main_pd_cal_line {
+    background-color: #909090;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.main_pd_cal_button {
+    background-color: red;
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+.addon_images {
+    width: 100%;
+}
+
+.inc_font {
+    font-size: 16px;
+}
+
+.adon_images {
+    width: 82%;
+    height: auto;
+}
+
+.adon_image_1 {
+    width: 82%;
+    height: auto;
+    margin-left: -40px;
+}
+
+.p_adjust {
+    padding-right: 108px;
+}
+
+@media screen and (max-width: 1200px) {
+    .adon_images {
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+        padding-left: 0;
+    }
+
+    .adon_image_1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 0px 10px;
+        padding-right: 0;
+    }
+
+    .p_adjust {
+        padding-right: 0;
+    }
+}
+
+.f_h4 {
+    color: #707070;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .main_img_details {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+
+    .main_pd_heading {
+        padding-right: 0;
+    }
+
+    .main_pd_small {
+        padding-right: 0;
+    }
+
+    .main_pd_cal_line {
+        width: 100%;
+    }
+
+    .main_pd_cal_button {
+        float: right;
+    }
+}
+
+.comment-input {
+    background-color: #dfe8e8;
+    border-radius: 40px;
+    padding: 0.9em 1.5em;
+}
+
+.comment-upload {
+    background: none;
+    color: green;
+    position: absolute;
+}

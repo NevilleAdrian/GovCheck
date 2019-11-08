@@ -1,0 +1,152 @@
+﻿.dashboard {
+    padding: 8em 0 3em 0;
+}
+
+.view-projects {
+    padding: 1em 0;
+}
+
+    .view-projects button {
+        color: white;
+        background-color: black;
+    }
+
+        .view-projects button:hover {
+            color: white;
+        }
+
+.view-content h4, h5, h6 {
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.input-addcat {
+    padding-right: 0px !important;
+    margin-bottom: 8px !important;
+}
+
+    .input-addcat input {
+        border-radius: 0px !important;
+    }
+
+.add-category {
+    padding-left: 10px;
+    padding-right: 0px !important;
+}
+
+    .add-category button {
+        width: 100%;
+        border-radius: 0px !important;
+        background-color: #37CB00;
+        color: white;
+        outline: none;
+        position: relative;
+        top: 25px;
+        border: none;
+        padding: 0.3em;
+    }
+
+.category-list {
+    list-style-type: none;
+}
+
+    .category-list li {
+        padding: 3px 15px;
+        margin: 6px;
+        float: left;
+        font-weight: bold;
+        background-color: #CFCFCF;
+        border-radius: 12px;
+        margin-right: 10px;
+    }
+
+        .category-list li:hover {
+            background-color: #37CB00;
+            color: white;
+            cursor: pointer;
+        }
+
+.addproject-form {
+    margin-bottom: 3em;
+}
+
+    .addproject-form input {
+        border-radius: 0px !important;
+    }
+
+.form-heading {
+    padding: 3em 15px 1em 15px;
+}
+
+    .form-heading h4 {
+        font-weight: bold;
+    }
+
+.add-projectBtn {
+    background-color: #61D038;
+    padding: 0.5em 2em;
+    border-radius: 0px !important;
+    color: white;
+    border: none;
+}
+
+    .add-projectBtn:hover {
+        color: white;
+    }
+
+.api-list {
+    position: absolute;
+    top: 9em;
+    z-index: 999;
+}
+
+.api-list1 {
+    position: absolute;
+    top: 4em;
+    z-index: 999;
+}
+
+.api-list ul {
+    list-style-type: none;
+    background-color: limegreen;
+    width: 300px;
+    display: block;
+}
+
+    .api-list ul li {
+        padding: 0.5em;
+    }
+
+.api-list1 ul {
+    list-style-type: none;
+    background-color: limegreen;
+    margin-left: 15px;
+    width: 300px;
+    display: block;
+}
+
+    .api-list1 ul li {
+        padding: 0.5em;
+    }
+
+.api-list ul li:hover {
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+
+.api-list1 ul li:hover {
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+
+.position-checklist {
+    position: relative;
+    top: 25px;
+    background-color:limegreen !important;
+    border:none;
+    border-radius:0px;
+    width:80%;
+
+}

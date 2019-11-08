@@ -1,0 +1,299 @@
+#project_sign_up {
+    border: 1px solid #62D039;
+    box-shadow: 0px 0px 2px #62D039;
+    border-radius: 4px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-right: 0;
+}
+
+.projects {
+    padding-bottom: 5em;
+}
+
+@media screen and (max-width: 1000px) {
+    #project_sign_up {
+        text-align: center;
+        float: right;
+        width: 110px;
+        margin-right: 25px;
+        border-radius: 20px;
+    }
+}
+
+.p_brand_name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.api-list1 ul {
+    list-style-type: none;
+    background-color: limegreen;
+    margin-left: 15px;
+    width: 300px;
+    display: block;
+}
+
+.api-list1 {
+    position: absolute;
+    top: 4em;
+    z-index: 999;
+}
+
+.api-list1 ul li {
+    padding: 0.5em;
+}
+
+/* PROJECT JUMBOTRON */
+.project_jumbotron {
+    height: 360px;
+    text-align: center;
+}
+
+.project_header_banner {
+    height: 360px;
+    background-image: url("/images/Banner_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project_heading {
+    line-height: 442px;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+/* END PROJECT JUMBOTRON */
+
+/* PROJECT MAIN SECTION */
+.project_main {
+    padding: 70px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .project_main {
+        padding: 24px 25px;
+    }
+
+    .project_heading {
+        font-size: 45px;
+    }
+}
+
+.search_form {
+    display: block;
+}
+
+.pm_input {
+    background-color: #F4F4F4;
+    outline: none;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 14px;
+    width: 100%;
+    margin-right: 0px;
+}
+
+    .pm_input::placeholder {
+        font-size: 14px
+    }
+
+.pm_button {
+    outline: none;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 14px;
+    width: 100%;
+    margin-left: 0;
+    background-color: #61D038;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* detail section */
+.img_details {
+    padding-left: 20px;
+}
+
+.detail_container {
+    margin-top: 60px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .detail_container {
+        margin-top: 20px;
+    }
+}
+
+.pdc_image {
+    width: 100%;
+    position: relative;
+}
+
+.pdc_image:hover{
+    cursor:pointer;
+}
+
+.descript:hover{
+    cursor: pointer;
+}
+
+.pd_heading {
+    font-weight: bold;
+    color: #909090;
+    font-size: 17px;
+    padding-right: 100px;
+    margin-bottom: 5px;
+}
+
+.pd_small {
+    font-size: 15px;
+    color: #909090;
+    padding-right: 100px;
+}
+
+.pd_smaller {
+    font-size: 13px;
+    color: #909090;
+    margin: 0;
+    padding: 0;
+}
+
+span.fa {
+    font-size: 14px;
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+    span.fa:hover {
+        color: black;
+    }
+
+span.fa-thumbs-up {
+    padding-left: 0;
+}
+
+.pd_button {
+    color: white !important;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.pd_button_green {
+    background-color: #61D038;
+}
+
+.pd_button_red {
+    background-color: red;
+}
+
+.pd_cal_line {
+    background-color: #909090;
+    margin: 14px 0;
+    width: 340px;
+}
+
+.pd_cal_button {
+    background-color: #61D038;
+    border-radius: 4px;
+    padding: 9px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 7px;
+    margin-left: 140px;
+}
+
+@media screen and (max-width: 768px) {
+    .search_categories {
+        display: none;
+    }
+    .img_details {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .pd_heading {
+        padding-right: 0;
+    }
+
+    .pd_small {
+        padding-right: 0;
+    }
+
+    .pd_cal_line {
+        width: 100%;
+    }
+
+    .pd_cal_button {
+        float: right;
+    }
+}
+
+
+/* track categories */
+.search_categories {
+    margin-top: 60px;
+    color: #909090;
+    border: 1px solid #F4F4F4;
+    list-style-type: none;
+    padding: 20px 30px;
+    background-color: rgba(242, 242, 242, 0.3);
+}
+
+    .search_categories li {
+        list-style-type: none;
+    }
+
+.list_categories_1 h4 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+a.list_items, li.list_items {
+    padding: 7px 0;
+    padding-right: 29px;
+    font-size: 13px;
+    color: #909090;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.list_categories_2 h4,
+.list_categories_3 h4 {
+    font-size: 13px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* end track categories */
+/* end details section */
+
+/* pagination */
+.pagination {
+    margin-top: 60px;
+}
+
+    .pagination a {
+        color: #A6ADB4;
+        margin-right: 18px;
+        padding-bottom: 5px;
+        font-size: 11px;
+    }
+
+a.p_view_more {
+    font-size: 34px;
+    line-height: 1px;
+    color: black;
+    border-radius: 100%;
+}
+
+.p_active {
+    border-bottom: 2px solid #61D038;
+}
+/* end pagination */
+/* END PROJECT MAIN SECTION */

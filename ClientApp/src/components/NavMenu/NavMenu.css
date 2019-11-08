@@ -1,0 +1,241 @@
+﻿/* NAVIGATION BAR */
+.navigation_bar {
+    position: fixed;
+    height: 82px;
+    width: 100%;
+    padding: 24px 0px;
+    box-shadow: 0px 0.1px 5px rgba(10, 9, 9, 0.4);
+    background-color: white;
+    z-index: 99999;
+}
+
+.gov_logo {
+    max-width:150px;
+    margin-top: -10px;
+}
+
+img.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #61D038;
+}
+
+.brand_name {
+    display: inline;
+    font-size: 25px;
+    color: #132409;
+    font-family: 'Avenir';
+}
+
+.brandname_span {
+    color: #37CB00;
+}
+.user_name {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #343638;
+    margin: 0 10px;
+    border: none;
+    border-left: 1px solid #343638;
+    padding: 0 10px;
+}
+.navigation_links {
+    float: right;
+}
+
+    .navigation_links a {
+        font-size: 10px;
+        margin: 0 10px;
+        padding: 6px;
+        text-transform: uppercase;
+    }
+
+#sign_up {
+    border: 1px solid #62D039;
+    box-shadow: 0px 0px 2px #62D039;
+    border-radius: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-right: 0;
+}
+
+#log_in {
+    border: 1px solid #62D039;
+    box-shadow: 0px 0px 2px #62D039;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #62D039;
+    color: white;
+}
+
+.hover-class {
+    
+}
+
+.dropbtn {
+    border: 1px solid #62D039;
+    -webkit-box-shadow: 0px 0px 2px #62D039;
+    box-shadow: 0px 0px 2px #62D039;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #62D039;
+    color: white;
+    cursor: pointer;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #61d038;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  hr.no-margin {
+    margin: 0px;
+}
+
+  a.hover-class:hover {
+    color: #fff;
+}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+/* OPEN AND CLOSE BAR */
+.menu-bar {
+    display: none;
+}
+
+.close-bar {
+    display: none;
+}
+/* END OPEN AND CLOSE BAR */
+
+@media screen and (max-width: 1000px) {
+    .navigation_bar {
+        height: 77px;
+        padding: 24px 24px;
+        z-index: 2;
+    }
+
+        
+    .user_name {
+        border-left: none;
+        display: block;
+        float: right;
+    }
+
+    .gov_logo {
+        margin-top: -5px;
+        width: 140px;
+    }
+
+    .brand_name {
+        font-size: 16px;
+        z-index: 3;
+    }
+
+    .brandname_span {
+        font-weight: normal;
+    }
+
+    .navigation_links {
+        display: none;
+        width: 60%;
+        height: 100vh;
+        background-color: #ffff;
+        position: absolute;
+        padding-top: 70px;
+        right: 0;
+        text-align: right;
+    }
+
+        .navigation_links a {
+            display: block;
+            font-size: 15px;
+            margin: 10px 25px;
+            padding: 6px;
+            color: #343638;
+            text-shadow: .2px .2px;
+            text-transform: none;
+            font-family: 'Avenir';
+        }
+
+    a.home {
+        display: none;
+    }
+
+    #log_in, #sign_up {
+        width: 110px;
+        text-align: center;
+        float: right;
+        margin-left: 200px;
+        margin-bottom: 15px;
+    }
+
+    #sign_up {
+        margin-right: 25px;
+    }
+
+    /* open bar menu */
+    .menu-bar {
+        display: block;
+        position: fixed;
+        right: 25px;
+        top: 17px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+        .menu-bar .bar1,
+        .menu-bar .bar2,
+        .menu-bar .bar3 {
+            display: block;
+            height: 2px;
+            width: 32px;
+            margin: 8px;
+            background-color: #61D038;
+            clear: right;
+        }
+
+        .menu-bar .bar2 {
+            width: 22px;
+            float: right;
+            margin-top: 0;
+        }
+    /* end open bar menu */
+
+    /* close bar */
+    .close-bar {
+        display: none;
+        position: fixed;
+        right: 25px;
+        cursor: pointer;
+        top: 0px;
+        font-size: 50px;
+        z-index: 2;
+        color: #62D039;
+    }
+    /* end close menu bar */
+}
+/* END NAVIGATION BAR */

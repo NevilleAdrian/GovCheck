@@ -1,0 +1,52 @@
+﻿.outer-w3-agile {
+    padding: 2em 1em;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    padding: 50px !important;
+}
+
+.s-r h6 i {
+    font-size: .85em;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 2.3em;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.34);
+    box-shadow: 2px 2px 8px rgba(58, 58, 58, 0.27);
+    color: #fff;
+}
+
+.s-r h6 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #404040;
+}
+
+.s-l p {
+    color: #000;
+    font-weight: 400;
+}
+
+.paragraph-agileits-w3layouts {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #8c8c8c;
+}
+
+.s-l h5 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #000;
+}
+
+.dashboard {
+    padding: 8em 0 3em 0;
+}
